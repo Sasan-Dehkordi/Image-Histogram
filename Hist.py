@@ -1,6 +1,6 @@
 from PIL import Image
 import matplotlib.pyplot as plt
-im= Image.open('image.png')
+im= Image.open('RGB_image.jpg')
 b, g ,r = im.split()
 GreenHist= g.histogram()
 BlueHist= b.histogram()
